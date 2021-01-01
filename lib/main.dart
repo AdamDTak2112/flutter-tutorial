@@ -25,16 +25,14 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class  extends StatefulWidget {
+class RandomWords extends StatefulWidget {
   @override
-  _State createState() => _State();
+  _RandomWordsState createState() => _RandomWordsState();
 }
 
-class _State extends State<> {
+class _RandomWordsState extends State<RandomWords> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
-    );
+    return Container();
   }
 }
